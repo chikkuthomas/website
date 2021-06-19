@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeMchio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d56d18e9db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+
+    <style>
+        .nav-item a {
+            font-size: small;
+            color: #000;
+            font-weight: 400;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .carousel-item img {
+            height: 800px;
+
+        }
+
+        .marq {
+            color: rgb(240, 232, 232);
+        }
+
+        .foot {
+            font-size: small;
+            background-color: rgb(163, 190, 241);
+          
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#edeae4;">
+
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="cafemarch.png" alt="" width="150px" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- id name given in the div class is same as that given in button area controls i.e=navbarSupportedContent  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" aria-current="page" href="#">. . . . . ABOUT |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">MENUS |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOCATION & HOURS |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRIVATE EVENTS . . . . .</a>
+                    </li>
+                </ul>
+                <!----------------------------- to set icons ------------------------------------------>
+                <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+                    <li> <a href="" style="color: teal;"><i class="fas me-5 fa-2x fa-phone"></i></a></li>
+
+                    <li><a href="" style="color: rgb(25, 221, 247);"><i class=" me-5 fab fa-2x fa-twitter"></i></a></li>
+                    <li><a href="" style="color: teal;"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="marq" style="background-color:#8f3603;">
+        <marquee behavior="slide" direction="right">We are temporarily closed to prioritize the health and
+            safety of our team, guests, and community. We look forward to seeing you soon, stay tuned to
+            @caffemarchio for updates.</marquee>
+    </div>
+    <div class="container fluid ">
+        <!-- to give slide show of images------------------------------------------------------------------ -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bakery.jpg" class="d-block  w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="cakepiece.jpg" class="d-block  w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="baking girl.jpg" class="d-block w-100 " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>
+
+    <!-- To give menu part in 4 columns -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-6">
+
+                    <div class="p-3 border bg-light">
+                        <h2>Desserts</h2>
+                        <img src="desert1.jpg" alt="" width="120px" height="100px">
+                        <img src="pie desserts.jpg" alt="" width="120px" height="100px">
+                        <img src="pie1.jpg" alt="" width="120px" height="100px">
+                        <img src="desserts.jpg" alt="" width="120px" height="100px">
+                    </div>
+                </div>
+                <div class="col-6">
+
+                    <div class="p-3 border bg-light">
+                        <h2>Birthday cakes</h2>
+                        <img src="bdaycake.jpg" alt="" width="120px" height="100px">
+                        <img src="bdaycake1.jpg" alt="" width="120px" height="100px">
+                        <img src="cake1.jpg" alt="" width="120px" height="100px">
+                        <img src="cakepiece.jpg" alt="" width="120px" height="100px">
+
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <h2>Wedding cakes</h2>
+                        <img src="weddingcake.jpg" alt="" width="120px" height="100px">
+                        <img src="wedcake2.jpg" alt="" width="120px" height="100px">
+                        <img src="weddingcake2.jpg" alt="" width="120px" height="100px">
+                        <img src="weddingcake3.jpg" alt="" width="120px" height="100px">
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <h2>Cakes</h2>
+                        <img src="cakepiece.jpg" alt="" width="120px" height="100px">
+                        <img src="cupcake.jpg" alt="" width="120px" height="100px">
+                        <img src="cuppycake.jpg" alt="" width="120px" height="100px">
+                        <img src="cupvcake.jpg" alt="" width="120px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-5 mt-3">
+        <table>
+            <tr>
+                <th>sl.no</th>
+                <th>Our branches</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Switzerland</td>
+            </tr>
+        </table>
+
+    </div>
+    <hr>
+
+
+    <div class="foot sticky-bottom ms-3 mt-3 mb-5">
+        <a class="ms-5" href="#" style="text-decoration: none;">30 EAST 30TH ST., NEW YORK, NY 10016 </a>
+
+
+        <a class="ms-5"  href="#" style="text-decoration: none;"> GIFT CARDS |</a>
+
+
+        <a class="ms-5" href="#" style="text-decoration: none;"> CAREERS |</a>
+
+
+        <a class="ms-5" href="#" style="text-decoration: none;"> REDBURY HOTELS</a>
+
+        <i class="fab ms-5 fa-facebook-square"></i>
+        <i class="fab ms-2 fa-instagram"></i>
+
+    </div>
+
+
+
+</body>
+
+</html>

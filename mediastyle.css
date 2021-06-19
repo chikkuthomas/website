@@ -1,0 +1,19 @@
+.row{
+    width: 100%;
+    min-height: 600px;
+    background-color: cornflowerblue;
+}
+.col{
+    max-width: 400px;
+    height: 300px;
+    background-color: coral;
+}
+@media(max-width:450px){
+    .col{
+        background-color: darkblue;
+        color: rgb(250, 250, 250);
+        text-align: center;
+    }
+
+   
+}
